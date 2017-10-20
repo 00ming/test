@@ -1,0 +1,15 @@
+{
+    code:200
+    list:[{}]
+    name:[{}]
+    page:''
+    total
+}
+
+
+{
+    cur:1
+    pagesize:
+    
+
+}
