@@ -21,6 +21,7 @@
 
     </el-table>
     <div style="margin-top: 20px">
+      <el-button @click="change()">编辑</el-button>
       <el-button @click="changeStatus()">改变状态</el-button>
       <el-button @click="toggleSelection([tableData3[1], tableData3[2]])">切换第二、第三行的选中状态</el-button>
       <el-button @click="toggleSelection()">取消选择</el-button>

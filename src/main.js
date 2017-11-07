@@ -31,10 +31,3 @@ Vue.filter('statusFilter',function ( value ) {
       return ''
   }
 })
-Vue.filter('aaa',(value,type) => {
-    if ( type == 'date') {
-        return '日期' + value  
-    } else {
-        return value
-    }
-})
